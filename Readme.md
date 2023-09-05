@@ -70,3 +70,43 @@ go env GOPATH
 
 ```
 
+**Build For Windows, Mac and Linux**
+
+```
+# TO SEE ENV
+go env
+
+# TO CREATE BUILD (executable file)
+go build
+
+# TO CREATE BUILD FOR OTHER MACHINES
+GOOS="windows" go build
+GOOS="linux" go build
+GOOS="drawin" go build
+
+```
+
+**Memory Management**
+
+Memory allocation and deallocation happens automatically
+Garbage Collections happens automatically (Out of Scope or nil)
+
+**new()**
+```
+1. Allocate memory but no INIT
+2. You will get a memory address
+3. Zeroed storage
+
+```
+
+**make()**
+```
+1. Allocate memory and INIT
+2. you will get a memory address
+3. Non-Zeroed storage
+
+```
+
+**Pointer**
+
+
