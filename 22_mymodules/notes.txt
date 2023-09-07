@@ -1,0 +1,38 @@
+# TO ADD PACKAGE
+go get -u github.com/gorilla/mux
+
+go build .
+
+go mod tidy
+
+go mod verify
+
+
+
+# TO SEE DEPENDENCIES
+go list
+
+go list all
+
+go list -m all
+
+## TO SEE ALL VERSION AVAIALBLE IN GITHUB FOR THE PACKAGE
+go list -m -versions github.com/gorilla/
+
+
+# TO SEE DEPENDENCIES
+go mod why github.com/gorilla/mux
+
+go mod graph
+
+
+# TO EDIT 'go.mod' FILE   
+go mod edit -go 1.16
+
+
+# TO PACKAGE EVERYTHING (extenal libaray / package)
+go mod vendor 
+
+vendor ==> is like node_modules
+
+go run -mod=vendor main.go
