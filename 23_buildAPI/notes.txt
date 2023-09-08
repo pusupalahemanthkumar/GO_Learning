@@ -1,0 +1,9 @@
+go get -u github.com/gorilla/mux
+
+go build .
+
+go mod tidy
+
+go mod vendor 
+
+go run -mod=vendor main.go
