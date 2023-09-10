@@ -1,0 +1,14 @@
+# CONCURRENCY AND GOROUTINES IN GOLANG
+
+## Thread 
+
+Managed by OS
+Fixed stack 1MB
+
+
+## Goroutines
+Managed by Go runtimes
+Flexible stack - 2KB
+
+## Note
+Do not communicate by sharing memory; instead, share memory by communicating
