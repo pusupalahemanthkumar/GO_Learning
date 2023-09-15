@@ -1,0 +1,12 @@
+go mod init github.com/pusupalahemanthkumar
+
+go get "github.com/jinzhu/gorm"
+
+go get "github.com/jinzhu/gorm/dialects/mysql"
+
+go get "github.com/gorilla/mux"               
+
+$ go get -u github.com/go-sql-driver/mysql
+
+
+// https://github.com/go-sql-driver/mysql
